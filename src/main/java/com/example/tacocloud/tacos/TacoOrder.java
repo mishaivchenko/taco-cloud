@@ -16,7 +16,7 @@ public class TacoOrder implements Serializable {
 
     public static final long serialVersionUID = 1L;
     private Long id;
-    private Date createdAt = new Date();
+    private Date PlacedAt = new Date();
 
     @NotBlank(message = "Delivery name is required")
     private String deliveryName;
